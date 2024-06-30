@@ -30,7 +30,7 @@ kt_ksp_plugin(
     ],
 )
 
-# This is redundant actually, but just to separate generated files by kopykat from the others.
+# This is redundant actually, but just to separate generated files from others and specify on IDE.
 kt_jvm_library(
     name = "kopykat_generated_lib",
     srcs = glob(["src/kopykat/*.kt"]),
@@ -59,6 +59,7 @@ kt_ksp_plugin(
     ],
 )
 
+# Same as kopykat
 kt_jvm_library(
     name = "arrow_optics_generated_lib",
     srcs = glob(["src/arrow_optics/*.kt"]),
