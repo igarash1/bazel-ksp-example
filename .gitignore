@@ -1,0 +1,7 @@
+.idea
+.ijwb
+MODULE.bazel.lock
+bazel-bin
+bazel-ksp-example.iml
+bazel-out
+bazel-testlogs
